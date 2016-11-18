@@ -31,7 +31,7 @@ public class PlayerPedro : MonoBehaviour {
 		else if (Input.GetKey ("left")) 
 		{
 			rb.velocity = new Vector2 (-velocidad,rb.velocity.y);
-			transform.localScale= new Vector3(-1,1,1);	
+			transform.localScale= new Vector3(-1,1,1);	 
 
 		}
 
