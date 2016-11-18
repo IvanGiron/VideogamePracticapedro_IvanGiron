@@ -12,6 +12,7 @@ public class gameControlScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		
 		puntoInicio = player.transform.position;
 	}
 
@@ -23,4 +24,7 @@ public class gameControlScript : MonoBehaviour {
 		puntoInicio = nuevoPunto;
 	
 	}
+
+
+
 }
